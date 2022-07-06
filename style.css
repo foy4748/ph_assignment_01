@@ -20,20 +20,22 @@ p {
   text-align: center;
   margin: 1.5rem 0;
   font-size: 1.2rem;
+  line-height: 1.7;
 }
 
 /* ----------Reusable Classes---------- */
 
 .link-button {
   display: block;
-  width: 8rem;
-  padding: 1rem;
+  width: 12rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   margin: 0 auto;
   background-image: linear-gradient(crimson, red);
   color: white;
   border-radius: 0.5rem;
   text-align: center;
+  font-weight: 700;
 }
 /* ------------------------------------ */
 
@@ -114,7 +116,10 @@ p {
 
 /* ------------------------------------ */
 
-/* ----------Our Donate Plan Section Styles---------- */
+/* ----------Our Donation Plan Section Styles---------- */
+.donation-plane {
+  margin: 10rem 0;
+}
 
 .icon {
   width: 4rem;
@@ -200,6 +205,9 @@ p {
 /* ------------------------------------ */
 
 /* ----------Get Updates Section Styles---------- */
+.get-updates {
+  margin: 8rem 0;
+}
 .subscribe-form {
   display: flex;
   justify-content: center;
