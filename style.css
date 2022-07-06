@@ -154,6 +154,51 @@ p {
 }
 /* ------------------------------------ */
 
+/* ----------Success Story Section Styles---------- */
+
+/*--*/
+.info-parent {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 3rem;
+  padding: 3rem;
+  box-shadow: 0.375rem 0.37rem 40px 2px #00000052;
+}
+
+.info > h3 {
+  font-size: 4em;
+  text-align: left;
+  margin: 0px;
+}
+
+.info > p {
+  margin: 0px;
+  text-align: left;
+}
+/*--*/
+
+.story {
+  display: flex;
+  padding: 3rem 5rem;
+}
+
+.storyTexts > p {
+  text-align: justify;
+  padding: 3rem;
+}
+.storyTexts > h2 {
+  text-align: justify;
+  font-size: 5rem;
+  padding: 0 3rem;
+}
+
+.storyPhoto {
+  width: 35%;
+  border-radius: 3rem;
+}
+
+/* ------------------------------------ */
+
 /* ----------Get Updates Section Styles---------- */
 .subscribe-form {
   display: flex;
