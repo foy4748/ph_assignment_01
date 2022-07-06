@@ -4,23 +4,30 @@
     <meta charset="UTF-8" />
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- For Google Font: Lato and YellowTails -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- --------------------Main Section-------------------- -->
-
     <section class="header-section">
       <h1>
         Let's help those who are <br />
         more in need
       </h1>
       <p>Reach your helping hands through us</p>
-      <a href="#other_amount" class="link-button">Donate Now</a>
+      <a href="#donate-today" class="link-button">Donate Now</a>
     </section>
-    <!-- ---------------------------------------------------- -->
 
     <!-- -----------------Donate Today Section--------------- -->
-    <section class="donate-today">
+    <section class="donate-today" id="donate-today">
       <h1>Donate Today</h1>
       <p>Your contribution may cause a huge positive impact to those victims</p>
       <div class="amounts">
@@ -40,6 +47,65 @@
       </div>
       <a href="#" class="link-button">Donate Now</a>
     </section>
-    <!-- ---------------------------------------------------- -->
+
+    <!-- ---------------Our Donation Plan Section------------ -->
+    <section class="donation-plane">
+      <h1>Our Donation Plan</h1>
+      <p>
+        We provide the victims with essentials such as food, cloths, medicines,
+        shelters etc
+      </p>
+      <div class="cards">
+        <div class="card card1">
+          <img class="icon" src="images/Food.svg" alt="Icon of Food" />
+          <h2>Food</h2>
+          <p>
+            We provide healthy &amp nutritious food and pure drinking water as
+            they may have stucked for days in the disaster.
+          </p>
+        </div>
+        <div class="card card2">
+          <img class="icon" src="images/medicine.svg" alt="Icon of Medicine" />
+          <h2>Medicine</h2>
+          <p>
+            Disaster causes many diseases such as Fever, Cholera, Diarreah due
+            to disaster. We provied proper treatement and medicines to recover
+            their health.
+          </p>
+        </div>
+        <div class="card card3">
+          <img class="icon" src="images/Care.svg" alt="Icon of Care" />
+          <h2>Care</h2>
+          <p>
+            We take care the victims. Provide them education, entertainment.
+            Raise their hope and recover their happy life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------Get Updates Section----------------- -->
+    <section class="get-updates">
+      <h1>Get Our Updates</h1>
+      <p>
+        Our success stories are written in these free online newsletters. <br />
+        You will get our updates via Email twice a month if you subscribe.
+      </p>
+      <div class="subscribe-form">
+        <input
+          id="subscribe-form"
+          type="email"
+          name="email"
+          placeholder="Your Email"
+        />
+        <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+      </div>
+    </section>
+
+    <!-- --------------------Footer Section----------------- -->
+    <footer class="footer-section">
+      <h1>Be Humble, Be Helpful</h1>
+      <p>Thanks for your contribution. We really appreciate it.</p>
+    </footer>
   </body>
 </html>
